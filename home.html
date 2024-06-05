@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CV: Lewis Cilia</title>
+</head>
+<body>
+    <div id="app">
+        {{ message }}
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    message: "My CV!"
+                }
+            }
+        })
+
+    app.mount('#app')
+    </script>
+</body>
+</html>
